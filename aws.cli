@@ -1,0 +1,2 @@
+aws ec2 run-instances --image-id ami-0e8e8dde43384148e --count 1 --instance-type t2.micro --key-name techleat2022 --subnet-id subnet-b07c78e8 --security-group-ids sg-0b606bfda7bd5036a
+aws ec2 describe-instances --instance-ids i-0f31bc9e566d351cd
